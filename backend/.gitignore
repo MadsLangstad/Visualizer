@@ -1,0 +1,31 @@
+# Ignore compiled object files
+*.o
+
+# Ignore the build directory and its contents
+build/
+obj/
+
+# Ignore executable files
+program  # Replace with your executable name if it’s different
+
+# Ignore log files
+*.log
+
+# Ignore editor and OS-specific files
+*.swp             # Vim swap files
+*.swo
+.DS_Store         # macOS
+Thumbs.db         # Windows
+.idea/            # JetBrains IDEs (like CLion)
+.vscode/          # VSCode settings
+*.~               # Temporary files created by some text editors
+*.bak             # Backup files
+
+# Ignore Makefile debug files
+*.dSYM/           # macOS debug files
+*.out             # Common executable output file
+
+# Ignore coverage and test reports (future)
+*.gcda
+*.gcno
+*.gcov

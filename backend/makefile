@@ -11,7 +11,7 @@ BUILD_DIR = build
 # Files
 SRCS = $(wildcard $(SRC_DIR)/*.c)
 OBJS = $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SRCS))
-TARGET = $(BUILD_DIR)/my_program
+TARGET = $(BUILD_DIR)/program
 
 # Default target
 all: $(TARGET)
